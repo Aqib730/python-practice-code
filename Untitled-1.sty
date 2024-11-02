@@ -1,0 +1,94 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{hyperref}
+
+% Page Layout
+\geometry{left=1in, right=1in, top=1in, bottom=1in}
+
+% Color Definitions
+\definecolor{mycolor}{RGB}{0, 102, 204} % Blue color
+
+% Section Formatting
+\titleformat{\section}{\Large\bfseries\color{mycolor}}{}{0em}{}[\titlerule]
+
+% Hyperlink Formatting
+\hypersetup{
+    colorlinks=true,
+    linkcolor=mycolor,
+    filecolor=magenta,      
+    urlcolor=mycolor,
+    pdftitle={Data Analyst Portfolio},
+    pdfpagemode=FullScreen,
+}
+
+\begin{document}
+
+% Title
+\begin{titlepage}
+    \centering
+    {\Huge \bfseries John Doe}\\
+    \vspace{1em}
+    {\Large Data Analyst}\\
+    \vspace{2em}
+    \begin{minipage}{0.8\textwidth}
+        \centering
+        \url{https://www.linkedin.com/in/johndoe} \\
+        \url{https://github.com/johndoe} \\
+        \url{john.doe@example.com}
+    \end{minipage}
+    \vspace{3em}
+\end{titlepage}
+
+% About Me
+\section*{About Me}
+I am a dedicated data analyst with over 5 years of experience in transforming complex data into actionable insights. My expertise lies in statistical analysis, data visualization, and predictive modeling. I am proficient in tools such as Python, R, SQL, and Tableau.
+
+\section*{Skills}
+\begin{itemize}
+    \item \textbf{Programming Languages:} Python, R, SQL
+    \item \textbf{Data Visualization:} Tableau, Power BI, Matplotlib, Seaborn
+    \item \textbf{Statistical Analysis:} Regression Analysis, Hypothesis Testing, Time Series Analysis
+    \item \textbf{Tools and Technologies:} Jupyter Notebooks, Git, Excel
+\end{itemize}
+
+\section*{Experience}
+\subsection*{Senior Data Analyst at XYZ Corp}
+\textit{June 2020 - Present}
+\begin{itemize}
+    \item Led data analysis projects to improve business operations, resulting in a 20\% increase in efficiency.
+    \item Developed interactive dashboards in Tableau for real-time decision-making.
+    \item Conducted in-depth statistical analysis to identify trends and patterns.
+\end{itemize}
+
+\subsection*{Data Analyst at ABC Inc}
+\textit{January 2017 - May 2020}
+\begin{itemize}
+    \item Analyzed sales data to provide actionable insights that drove a 15\% increase in revenue.
+    \item Automated data extraction and processing workflows, reducing manual effort by 30\%.
+    \item Created comprehensive reports and visualizations to support strategic planning.
+\end{itemize}
+
+\section*{Projects}
+\subsection*{Customer Segmentation Analysis}
+\begin{itemize}
+    \item Performed clustering analysis to segment customers based on purchasing behavior.
+    \item Used K-means clustering and hierarchical clustering techniques to identify distinct customer segments.
+\end{itemize}
+
+\subsection*{Sales Forecasting Model}
+\begin{itemize}
+    \item Developed a time series forecasting model to predict future sales trends.
+    \item Implemented ARIMA and Prophet models to achieve high accuracy in forecasts.
+\end{itemize}
+
+\section*{Education}
+\textbf{Master of Science in Data Science} \\
+University of Data, 2016 \\
+\textbf{Bachelor of Science in Statistics} \\
+University of Statistics, 2014
+
+\end{document}
